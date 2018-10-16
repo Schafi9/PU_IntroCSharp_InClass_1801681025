@@ -17,10 +17,14 @@ namespace MusicFactory
             if (answer=="Yes")
             {
                 //Console.WriteLine("Play music!");
-                using (SoundPlayer player = new SoundPlayer(@"C:\Users\fmi\Desktop\W3\PU_IntroCSharp_InClass_1801681025\
-                W3InClass\MusicFactory\Music\277751539693463.wav"))
+                using (SoundPlayer player = new SoundPlayer(@"C:\Users\fmi\Desktop\W3\PU_IntroCSharp_InClass_1801681025\W3InClass\MusicFactory\Music\277751539693463.wav"))
                 {
+                    Console.WriteLine("Now Playing....");
                     player.PlaySync();
+                    while (true)
+                    {
+                        Console.Write(".");
+                    }
                 }
             }
             else if(answer=="No")
