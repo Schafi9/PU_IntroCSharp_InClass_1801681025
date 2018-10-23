@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicFactory", "MusicFactory\MusicFactory.csproj", "{37067B92-F7FF-4409-86CE-C5855A620427}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week3", "Week3", "{E0E8E7AB-D478-4F7B-AC5B-D55425991A4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week4", "Week4", "{842809FD-98AA-4564-9356-B994406500D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandyShop", "CandyShop\CandyShop.csproj", "{DF16F4A9-8E32-4203-BB60-48C3A3D8BE61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,17 @@ Global
 		{37067B92-F7FF-4409-86CE-C5855A620427}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37067B92-F7FF-4409-86CE-C5855A620427}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37067B92-F7FF-4409-86CE-C5855A620427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF16F4A9-8E32-4203-BB60-48C3A3D8BE61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF16F4A9-8E32-4203-BB60-48C3A3D8BE61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF16F4A9-8E32-4203-BB60-48C3A3D8BE61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF16F4A9-8E32-4203-BB60-48C3A3D8BE61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{37067B92-F7FF-4409-86CE-C5855A620427} = {E0E8E7AB-D478-4F7B-AC5B-D55425991A4D}
+		{DF16F4A9-8E32-4203-BB60-48C3A3D8BE61} = {842809FD-98AA-4564-9356-B994406500D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {959C4F53-C25F-4577-925A-34D13F9B8FA3}
