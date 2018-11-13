@@ -29,11 +29,14 @@ namespace PiggyBank
                 Console.WriteLine("Please try again later!");
                 
             }
-            result = Math.Round(result, 1, MidpointRounding.AwayFromZero);
-            //Console.WriteLine($"{result} years");
-            string months = result.ToString().Split(',')[1];
-            Console.WriteLine($"{(int)result} years {months}months!");
-
+            if (result < 0) Console.WriteLine("Never!");
+            else
+            {
+                result = Math.Round(result, 1, MidpointRounding.AwayFromZero);
+                //Console.WriteLine($"{result} years");
+                string months = result.ToString().Split(',')[1];
+                Console.WriteLine($"{(int)result} years {months}months!");
+            }
         }
     }
 }
