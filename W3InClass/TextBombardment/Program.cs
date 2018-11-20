@@ -27,6 +27,7 @@ namespace TextBombardment
                             Console.Write("\n");
                         }
                     }
+                Console.WriteLine();
                 //}
             }
             catch (Exception ex)
